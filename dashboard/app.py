@@ -73,13 +73,13 @@ with tabs[0]:
                      "Hallucination (undiscussed items)": m["hallucination_rate"],
                      "PDGM level mismatch": m.get("pdgm_level_mismatch_rate"),
                      "Mean |$ error| / period": m.get("pdgm_mean_abs_payment_error"),
-                     "QA flag precision": m.get("qa_flag_precision"),
+                     "QA rules catch (recall)": m.get("qa_error_recall"),
                      "Median latency (s)": m.get("median_latency_s")})
     table = pd.DataFrame(rows)
     st.dataframe(table, hide_index=True, width="stretch",
                  column_config={c: st.column_config.NumberColumn(format="%.3f") for c in
                                 ["Accuracy (answerable)", "Wrong answers", "Left blank",
-                                 "Hallucination (undiscussed items)", "PDGM level mismatch", "QA flag precision"]}
+                                 "Hallucination (undiscussed items)", "PDGM level mismatch", "QA rules catch (recall)"]}
                  | {"Mean |$ error| / period": st.column_config.NumberColumn(format="$%.2f")})
 
     c1, c2 = st.columns(2)

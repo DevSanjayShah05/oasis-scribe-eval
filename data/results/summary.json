@@ -1,0 +1,187 @@
+{
+  "eval_subset_transcripts": 60,
+  "full_transcripts": 300,
+  "systems": {
+    "keyword_baseline": {
+      "eval_subset": {
+        "decisions": 1080,
+        "accuracy_answerable": 0.6943359375,
+        "wrong_rate_answerable": 0.21875,
+        "abstain_rate_answerable": 0.0869140625,
+        "precision_when_answered": 0.760427807486631,
+        "hallucination_rate": 0.19642857142857142,
+        "n_unanswerable": 56,
+        "accuracy_ci95": [
+          0.6699140242034314,
+          0.7196117473538087
+        ],
+        "wrong_rate_ci95": [
+          0.19408866995073892,
+          0.2428437442063402
+        ],
+        "transcripts": 60,
+        "pdgm_scored_transcripts": 39,
+        "pdgm_level_mismatch_rate": 0.10256410256410256,
+        "pdgm_mean_abs_payment_error": 22.232307692307693,
+        "pdgm_net_payment_bias": -8.09025641025641,
+        "pdgm_share_any_item_wrong": 0.7692307692307693,
+        "qa_flags": 18,
+        "qa_flag_precision": 1.0,
+        "qa_error_recall": 0.1513157894736842
+      },
+      "all": {
+        "decisions": 5400,
+        "accuracy_answerable": 0.7028413575374901,
+        "wrong_rate_answerable": 0.2069850039463299,
+        "abstain_rate_answerable": 0.09017363851617995,
+        "precision_when_answered": 0.7725005421817394,
+        "hallucination_rate": 0.18373493975903615,
+        "n_unanswerable": 332,
+        "accuracy_ci95": [
+          0.6918505816614919,
+          0.713810741970486
+        ],
+        "wrong_rate_ci95": [
+          0.1960926532689465,
+          0.2180203607026056
+        ],
+        "transcripts": 300,
+        "pdgm_scored_transcripts": 197,
+        "pdgm_level_mismatch_rate": 0.14213197969543148,
+        "pdgm_mean_abs_payment_error": 33.69685279187817,
+        "pdgm_net_payment_bias": -4.603147208121826,
+        "pdgm_share_any_item_wrong": 0.7208121827411168,
+        "qa_flags": 102,
+        "qa_flag_precision": 1.0,
+        "qa_error_recall": 0.1683599419448476
+      }
+    },
+    "qwen2.5:7b": {
+      "eval_subset": {
+        "decisions": 1080,
+        "accuracy_answerable": 0.3876953125,
+        "wrong_rate_answerable": 0.5009765625,
+        "abstain_rate_answerable": 0.111328125,
+        "precision_when_answered": 0.43626373626373627,
+        "hallucination_rate": 0.8392857142857143,
+        "n_unanswerable": 56,
+        "accuracy_ci95": [
+          0.35299757070969984,
+          0.4211583324978599
+        ],
+        "wrong_rate_ci95": [
+          0.45971566648514783,
+          0.5402212693844739
+        ],
+        "transcripts": 60,
+        "pdgm_scored_transcripts": 39,
+        "pdgm_level_mismatch_rate": 0.28205128205128205,
+        "pdgm_mean_abs_payment_error": 59.90794871794873,
+        "pdgm_net_payment_bias": -19.111538461538462,
+        "pdgm_share_any_item_wrong": 1.0,
+        "qa_flags": 76,
+        "qa_flag_precision": 1.0,
+        "qa_error_recall": 0.24802110817941952,
+        "median_latency_s": 93.43,
+        "failed_calls": 0
+      }
+    },
+    "qwen2.5:7b+guard": {
+      "eval_subset": {
+        "decisions": 1080,
+        "accuracy_answerable": 0.3818359375,
+        "wrong_rate_answerable": 0.49609375,
+        "abstain_rate_answerable": 0.1220703125,
+        "precision_when_answered": 0.43492769744160176,
+        "hallucination_rate": 0.8214285714285714,
+        "n_unanswerable": 56,
+        "accuracy_ci95": [
+          0.345233731322441,
+          0.41610297539287855
+        ],
+        "wrong_rate_ci95": [
+          0.45559439038870964,
+          0.5345247980674869
+        ],
+        "transcripts": 60,
+        "pdgm_scored_transcripts": 39,
+        "pdgm_level_mismatch_rate": 0.28205128205128205,
+        "pdgm_mean_abs_payment_error": 59.90794871794873,
+        "pdgm_net_payment_bias": -19.111538461538462,
+        "pdgm_share_any_item_wrong": 1.0,
+        "qa_flags": 72,
+        "qa_flag_precision": 1.0,
+        "qa_error_recall": 0.23733333333333334,
+        "median_latency_s": 93.43,
+        "failed_calls": 0
+      }
+    },
+    "qwen2.5:7b+segmented+rag": {
+      "eval_subset": {
+        "decisions": 1080,
+        "accuracy_answerable": 0.62109375,
+        "wrong_rate_answerable": 0.361328125,
+        "abstain_rate_answerable": 0.017578125,
+        "precision_when_answered": 0.6322067594433399,
+        "hallucination_rate": 0.875,
+        "n_unanswerable": 56,
+        "accuracy_ci95": [
+          0.5935984481086324,
+          0.6504959840127285
+        ],
+        "wrong_rate_ci95": [
+          0.33299606845513413,
+          0.38916388969380855
+        ],
+        "transcripts": 60,
+        "pdgm_scored_transcripts": 39,
+        "pdgm_level_mismatch_rate": 0.2564102564102564,
+        "pdgm_mean_abs_payment_error": 57.74435897435897,
+        "pdgm_net_payment_bias": -36.02435897435897,
+        "pdgm_share_any_item_wrong": 1.0,
+        "qa_flags": 62,
+        "qa_flag_precision": 1.0,
+        "qa_error_recall": 0.2576271186440678,
+        "median_latency_s": 89.43,
+        "failed_calls": 0
+      }
+    },
+    "qwen2.5:7b+segmented+rag+guard": {
+      "eval_subset": {
+        "decisions": 1080,
+        "accuracy_answerable": 0.609375,
+        "wrong_rate_answerable": 0.353515625,
+        "abstain_rate_answerable": 0.037109375,
+        "precision_when_answered": 0.6328600405679513,
+        "hallucination_rate": 0.6785714285714286,
+        "n_unanswerable": 56,
+        "accuracy_ci95": [
+          0.5806427847138602,
+          0.6392961876832844
+        ],
+        "wrong_rate_ci95": [
+          0.3247737503539261,
+          0.3809581543577663
+        ],
+        "transcripts": 60,
+        "pdgm_scored_transcripts": 39,
+        "pdgm_level_mismatch_rate": 0.23076923076923078,
+        "pdgm_mean_abs_payment_error": 52.28820512820512,
+        "pdgm_net_payment_bias": -30.568205128205125,
+        "pdgm_share_any_item_wrong": 1.0,
+        "qa_flags": 61,
+        "qa_flag_precision": 1.0,
+        "qa_error_recall": 0.2613240418118467,
+        "median_latency_s": 89.43,
+        "failed_calls": 0
+      }
+    }
+  },
+  "pretty_names": {
+    "keyword_baseline": "Keyword baseline",
+    "qwen2.5:7b": "LLM single-pass",
+    "qwen2.5:7b+guard": "LLM single-pass + grounding guard",
+    "qwen2.5:7b+segmented+rag": "LLM segmented + RAG",
+    "qwen2.5:7b+segmented+rag+guard": "LLM segmented + RAG + grounding guard"
+  }
+}

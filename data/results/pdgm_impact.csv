@@ -1,0 +1,354 @@
+system,transcript_id,difficulty,clinical_group,pdgm_items_wrong,true_points,pred_points,true_level,pred_level,true_hipps,pred_hipps,true_payment,pred_payment,payment_delta
+keyword_baseline,TX-0000,easy,MS Rehab,1,42,32,Medium,Medium,1EB21,1EB21,2208.0,2208.0,0.0
+keyword_baseline,TX-0002,hard,MMTA - Surgical Aftercare,1,27,23,Low,Low,3GA21,3GA21,1285.1,1285.1,0.0
+keyword_baseline,TX-0003,easy,MS Rehab,2,60,51,High,High,3EC21,3EC21,1802.4,1802.4,0.0
+keyword_baseline,TX-0005,hard,MMTA - Respiratory,1,34,30,Medium,Low,3LB31,3LA31,1784.46,1575.95,-208.51
+keyword_baseline,TX-0006,easy,MMTA - Cardiac,2,79,70,High,High,3HC11,3HC11,1568.61,1568.61,0.0
+keyword_baseline,TX-0007,medium,MMTA - GI/GU,1,60,54,High,High,1JC21,1JC21,2361.89,2361.89,0.0
+keyword_baseline,TX-0009,easy,MMTA - Infectious,1,34,30,Medium,Low,3KB11,3KA11,1371.31,1187.87,-183.44
+keyword_baseline,TX-0012,easy,Neuro,0,60,60,High,High,3BC11,3BC11,1924.28,1924.28,0.0
+keyword_baseline,TX-0013,medium,MMTA - Infectious,2,28,27,Low,Low,2KA21,2KA21,2397.56,2397.56,0.0
+keyword_baseline,TX-0014,hard,MMTA - Respiratory,4,60,47,High,High,2LC21,2LC21,2801.33,2801.33,0.0
+keyword_baseline,TX-0015,easy,Neuro,1,22,25,Low,Low,3BA11,3BA11,1423.9,1423.9,0.0
+keyword_baseline,TX-0016,medium,MMTA - Other,0,42,42,Medium,Medium,3AB21,3AB21,1482.6,1482.6,0.0
+keyword_baseline,TX-0017,hard,Complex,1,39,36,Medium,Medium,3DB21,3DB21,1552.31,1552.31,0.0
+keyword_baseline,TX-0018,easy,Wound,1,46,54,Medium,High,3CB21,3CC21,2326.83,2602.6,275.77
+keyword_baseline,TX-0019,medium,MMTA - Cardiac,1,71,65,High,High,3HC11,3HC11,1568.61,1568.61,0.0
+keyword_baseline,TX-0021,easy,MMTA - Cardiac,2,32,32,Medium,Medium,3HB11,3HB11,1350.32,1350.32,0.0
+keyword_baseline,TX-0024,easy,MMTA - GI/GU,1,22,27,Low,Low,3JA21,3JA21,1254.52,1254.52,0.0
+keyword_baseline,TX-0025,medium,MMTA - Cardiac,2,79,70,High,High,3HC21,3HC21,1684.18,1684.18,0.0
+keyword_baseline,TX-0026,hard,MMTA - Cardiac,3,20,20,Low,Low,3HA11,3HA11,1150.98,1150.98,0.0
+keyword_baseline,TX-0027,easy,MS Rehab,0,53,53,High,High,1EC11,1EC11,2364.34,2364.34,0.0
+keyword_baseline,TX-0030,easy,MMTA - Respiratory,1,33,32,Low,Low,3LA21,3LA21,1286.12,1286.12,0.0
+keyword_baseline,TX-0032,hard,MS Rehab,2,28,17,Low,Low,3EA21,3EA21,1355.21,1355.21,0.0
+keyword_baseline,TX-0033,easy,MMTA - Infectious,3,40,46,Medium,Medium,4KB31,4KB31,2731.21,2731.21,0.0
+keyword_baseline,TX-0035,hard,MS Rehab,2,25,18,Low,Low,2EA31,2EA31,2738.96,2738.96,0.0
+keyword_baseline,TX-0036,easy,Wound,0,53,53,High,High,1CC11,1CC11,3164.54,3164.54,0.0
+keyword_baseline,TX-0037,medium,MMTA - Infectious,1,71,65,High,High,1KC21,1KC21,2468.9,2468.9,0.0
+keyword_baseline,TX-0039,easy,MMTA - Other,2,6,14,Low,Low,1AA11,1AA11,1864.56,1864.56,0.0
+keyword_baseline,TX-0042,easy,MMTA - Endocrine,0,71,71,High,High,3IC21,3IC21,2120.56,2120.56,0.0
+keyword_baseline,TX-0043,medium,MMTA - Cardiac,1,40,23,Medium,Low,3HB11,3HA11,1350.32,1150.98,-199.34
+keyword_baseline,TX-0044,hard,MMTA - Cardiac,0,39,39,Medium,Medium,1HB31,1HB31,2433.43,2433.43,0.0
+keyword_baseline,TX-0045,easy,Neuro,0,46,46,Medium,Medium,1BB21,1BB21,2422.63,2422.63,0.0
+keyword_baseline,TX-0046,medium,MMTA - Surgical Aftercare,0,19,19,Low,Low,2GA21,2GA21,2379.21,2379.21,0.0
+keyword_baseline,TX-0047,hard,MMTA - Endocrine,1,36,33,Medium,Medium,1IB21,1IB21,2635.21,2635.21,0.0
+keyword_baseline,TX-0048,easy,MS Rehab,1,38,38,Medium,Medium,2EB21,2EB21,2624.21,2624.21,0.0
+keyword_baseline,TX-0049,medium,MMTA - Surgical Aftercare,0,20,20,Low,Low,3GA11,3GA11,1169.53,1169.53,0.0
+keyword_baseline,TX-0050,hard,MS Rehab,3,22,21,Low,Low,3EA21,3EA21,1355.21,1355.21,0.0
+keyword_baseline,TX-0051,easy,Complex,1,45,42,Medium,Medium,1DB21,1DB21,2230.02,2230.02,0.0
+keyword_baseline,TX-0054,easy,MMTA - Cardiac,4,8,16,Low,Low,3HA11,3HA11,1150.98,1150.98,0.0
+keyword_baseline,TX-0057,easy,MMTA - Other,2,19,21,Low,Low,3AA11,3AA11,1186.86,1186.86,0.0
+keyword_baseline,TX-0060,easy,MMTA - Other,0,39,39,Medium,Medium,3AB21,3AB21,1482.6,1482.6,0.0
+keyword_baseline,TX-0061,medium,MS Rehab,1,27,23,Low,Low,3EA11,3EA11,1239.44,1239.44,0.0
+keyword_baseline,TX-0062,hard,MMTA - Cardiac,2,40,33,Medium,Medium,3HB11,3HB11,1350.32,1350.32,0.0
+keyword_baseline,TX-0063,easy,MMTA - Cardiac,1,53,43,High,Medium,2HC21,2HB21,2778.09,2559.8,-218.29
+keyword_baseline,TX-0064,medium,MMTA - GI/GU,2,79,59,High,High,3JC21,3JC21,1684.18,1684.18,0.0
+keyword_baseline,TX-0066,easy,Wound,1,12,17,Low,Low,3CA31,3CA31,2453.61,2453.61,0.0
+keyword_baseline,TX-0067,medium,MMTA - Cardiac,0,47,47,High,High,3HC21,3HC21,1684.18,1684.18,0.0
+keyword_baseline,TX-0068,hard,MMTA - Cardiac,2,48,27,High,Low,3HC11,3HA11,1568.61,1150.98,-417.63
+keyword_baseline,TX-0069,easy,MMTA - Infectious,3,4,19,Low,Low,3KA31,3KA31,1593.48,1593.48,0.0
+keyword_baseline,TX-0070,medium,MMTA - Cardiac,2,60,54,High,High,3HC21,3HC21,1684.18,1684.18,0.0
+keyword_baseline,TX-0072,easy,MMTA - Other,1,59,53,High,High,3AC11,3AC11,1568.61,1568.61,0.0
+keyword_baseline,TX-0075,easy,MMTA - Other,2,43,42,Medium,Medium,2AB11,2AB11,2460.95,2460.95,0.0
+keyword_baseline,TX-0076,medium,MMTA - Infectious,0,39,39,Medium,Medium,3KB31,3KB31,1776.92,1776.92,0.0
+keyword_baseline,TX-0078,easy,MS Rehab,1,39,39,Medium,Medium,1EB11,1EB11,2092.23,2092.23,0.0
+keyword_baseline,TX-0080,hard,Behavioral Health,1,34,34,Medium,Medium,1FB21,1FB21,2156.44,2156.44,0.0
+keyword_baseline,TX-0081,easy,MMTA - Cardiac,2,2,10,Low,Low,3HA21,3HA21,1266.75,1266.75,0.0
+keyword_baseline,TX-0082,medium,MMTA - Cardiac,1,53,53,High,High,2HC11,2HC11,2662.53,2662.53,0.0
+keyword_baseline,TX-0084,easy,MMTA - Other,2,42,39,Medium,Medium,1AB21,1AB21,2160.31,2160.31,0.0
+keyword_baseline,TX-0085,medium,Wound,1,79,62,High,High,2CC11,2CC11,3580.74,3580.74,0.0
+keyword_baseline,TX-0087,easy,MMTA - Cardiac,3,29,31,Medium,Medium,2HB21,2HB21,2559.8,2559.8,0.0
+keyword_baseline,TX-0090,easy,Wound,4,21,35,Low,Medium,1CA21,1CB21,2841.48,3004.54,163.06
+keyword_baseline,TX-0093,easy,Neuro,2,18,23,Low,Low,2BA11,2BA11,2517.81,2517.81,0.0
+keyword_baseline,TX-0095,hard,MS Rehab,0,48,48,High,High,2EC21,2EC21,2896.31,2896.31,0.0
+keyword_baseline,TX-0096,easy,MMTA - Infectious,1,71,65,High,High,3KC31,3KC31,2081.23,2081.23,0.0
+keyword_baseline,TX-0099,easy,MMTA - Infectious,1,39,36,Medium,Medium,1KB21,1KB21,2164.59,2164.59,0.0
+keyword_baseline,TX-0102,easy,Complex,0,39,39,Medium,Medium,3DB21,3DB21,1552.31,1552.31,0.0
+keyword_baseline,TX-0103,medium,MMTA - Endocrine,0,27,27,Low,Low,3IA21,3IA21,1867.82,1867.82,0.0
+keyword_baseline,TX-0105,easy,MMTA - Cardiac,0,59,59,High,High,1HC11,1HC11,2246.12,2246.12,0.0
+keyword_baseline,TX-0106,medium,Complex,2,19,27,Low,Low,4DA21,4DA21,2216.36,2216.36,0.0
+keyword_baseline,TX-0108,easy,MS Rehab,0,46,46,High,High,3EC11,3EC11,1686.63,1686.63,0.0
+keyword_baseline,TX-0110,hard,MMTA - GI/GU,0,52,52,High,High,3JC21,3JC21,1684.18,1684.18,0.0
+keyword_baseline,TX-0111,easy,MMTA - Respiratory,1,33,29,Low,Low,3LA21,3LA21,1286.12,1286.12,0.0
+keyword_baseline,TX-0112,medium,MS Rehab,1,60,65,High,High,3EC21,3EC21,1802.4,1802.4,0.0
+keyword_baseline,TX-0114,easy,MS Rehab,1,39,47,Medium,High,3EB31,3EC31,1820.13,2092.23,272.1
+keyword_baseline,TX-0117,easy,MMTA - Endocrine,0,39,39,Medium,Medium,3IB21,3IB21,1957.51,1957.51,0.0
+keyword_baseline,TX-0118,medium,MMTA - Other,0,28,28,Low,Low,1AA21,1AA21,1980.13,1980.13,0.0
+keyword_baseline,TX-0120,easy,MMTA - Surgical Aftercare,0,71,71,High,High,3GC31,3GC31,2067.98,2067.98,0.0
+keyword_baseline,TX-0123,easy,MMTA - Endocrine,2,11,16,Low,Low,3IA11,3IA11,1752.26,1752.26,0.0
+keyword_baseline,TX-0124,medium,MMTA - Cardiac,2,14,27,Low,Low,2HA11,2HA11,2245.1,2245.1,0.0
+keyword_baseline,TX-0126,easy,MMTA - Cardiac,2,32,37,Medium,Medium,1HB11,1HB11,2027.83,2027.83,0.0
+keyword_baseline,TX-0127,medium,MMTA - Other,2,71,62,High,High,1AC11,1AC11,2246.32,2246.32,0.0
+keyword_baseline,TX-0128,hard,Neuro,2,67,61,High,High,3BC31,3BC31,2329.89,2329.89,0.0
+keyword_baseline,TX-0129,easy,MMTA - Endocrine,0,34,34,Medium,Medium,3IB31,3IB31,2247.34,2247.34,0.0
+keyword_baseline,TX-0130,medium,MS Rehab,1,32,37,Medium,Medium,3EB21,3EB21,1530.3,1530.3,0.0
+keyword_baseline,TX-0131,hard,Neuro,2,45,34,Medium,Low,3BB21,3BA21,1744.92,1539.47,-205.45
+keyword_baseline,TX-0132,easy,MMTA - Surgical Aftercare,0,3,3,Low,Low,3GA21,3GA21,1285.1,1285.1,0.0
+keyword_baseline,TX-0133,medium,MS Rehab,2,59,50,High,High,3EC11,3EC11,1686.63,1686.63,0.0
+keyword_baseline,TX-0134,hard,Complex,1,42,39,Medium,Medium,3DB31,3DB31,1842.35,1842.35,0.0
+keyword_baseline,TX-0135,easy,Wound,1,33,33,Low,Low,3CA11,3CA11,2048.0,2048.0,0.0
+keyword_baseline,TX-0137,hard,MMTA - Endocrine,1,24,27,Low,Low,3IA11,3IA11,1752.26,1752.26,0.0
+keyword_baseline,TX-0138,easy,MMTA - GI/GU,0,40,40,Medium,Medium,2JB21,2JB21,2561.43,2561.43,0.0
+keyword_baseline,TX-0141,easy,MMTA - Infectious,1,59,53,High,High,3KC11,3KC11,1675.62,1675.62,0.0
+keyword_baseline,TX-0143,hard,MMTA - Other,1,79,73,High,High,1AC11,1AC11,2246.32,2246.32,0.0
+keyword_baseline,TX-0144,easy,MMTA - Cardiac,2,54,47,High,High,3HC11,3HC11,1568.61,1568.61,0.0
+keyword_baseline,TX-0146,hard,MS Rehab,0,52,52,High,High,4EC11,4EC11,2641.13,2641.13,0.0
+keyword_baseline,TX-0147,easy,Complex,2,27,35,Low,Medium,4DA21,4DB21,2216.36,2506.81,290.45
+keyword_baseline,TX-0148,medium,MMTA - Cardiac,0,27,27,Low,Low,2HA31,2HA31,2650.5,2650.5,0.0
+keyword_baseline,TX-0150,easy,MMTA - Respiratory,1,31,35,Low,Medium,3LA11,3LB11,1170.35,1379.06,208.71
+keyword_baseline,TX-0153,easy,MMTA - Other,2,53,43,High,Medium,3AC11,3AB11,1568.61,1367.03,-201.58
+keyword_baseline,TX-0154,medium,Neuro,1,47,44,Medium,Medium,1BB21,1BB21,2422.63,2422.63,0.0
+keyword_baseline,TX-0156,easy,Neuro,3,20,33,Low,Low,3BA11,3BA11,1423.9,1423.9,0.0
+keyword_baseline,TX-0159,easy,MS Rehab,0,54,54,High,High,2EC21,2EC21,2896.31,2896.31,0.0
+keyword_baseline,TX-0160,medium,MMTA - Respiratory,1,67,50,High,High,3LC11,3LC11,1591.65,1591.65,0.0
+keyword_baseline,TX-0162,easy,Wound,0,33,33,Low,Low,2CA31,2CA31,3547.52,3547.52,0.0
+keyword_baseline,TX-0164,hard,MMTA - Cardiac,2,45,35,High,Medium,2HC11,2HB11,2662.53,2444.23,-218.3
+keyword_baseline,TX-0165,easy,MMTA - Cardiac,0,46,46,High,High,3HC11,3HC11,1568.61,1568.61,0.0
+keyword_baseline,TX-0166,medium,MS Rehab,0,71,71,High,High,3EC11,3EC11,1686.63,1686.63,0.0
+keyword_baseline,TX-0168,easy,Neuro,0,45,45,Medium,Medium,3BB31,3BB31,2034.76,2034.76,0.0
+keyword_baseline,TX-0169,medium,Neuro,0,46,46,Medium,Medium,2BB11,2BB11,2723.27,2723.27,0.0
+keyword_baseline,TX-0171,easy,Behavioral Health,1,19,24,Low,Low,3FA11,3FA11,1093.3,1093.3,0.0
+keyword_baseline,TX-0174,easy,MMTA - Endocrine,1,45,39,High,Medium,1IC11,1IB11,2682.5,2519.44,-163.06
+keyword_baseline,TX-0175,medium,MMTA - Surgical Aftercare,1,28,28,Low,Low,2GA21,2GA21,2379.21,2379.21,0.0
+keyword_baseline,TX-0177,easy,MMTA - Surgical Aftercare,3,37,39,Medium,Medium,2GB11,2GB11,2479.29,2479.29,0.0
+keyword_baseline,TX-0178,medium,MMTA - Endocrine,1,65,62,High,High,3IC31,3IC31,2410.4,2410.4,0.0
+keyword_baseline,TX-0180,easy,MMTA - GI/GU,1,46,43,Medium,Medium,3JB21,3JB21,1467.52,1467.52,0.0
+keyword_baseline,TX-0181,medium,Wound,0,60,60,High,High,3CC11,3CC11,2486.83,2486.83,0.0
+keyword_baseline,TX-0182,hard,MMTA - Infectious,4,12,14,Low,Low,2KA21,2KA21,2397.56,2397.56,0.0
+keyword_baseline,TX-0183,easy,MS Rehab,1,67,64,High,High,1EC11,1EC11,2364.34,2364.34,0.0
+keyword_baseline,TX-0184,medium,MS Rehab,0,31,31,Low,Low,2EA11,2EA11,2333.35,2333.35,0.0
+keyword_baseline,TX-0185,hard,MMTA - Surgical Aftercare,5,71,27,High,Low,3GC11,3GA11,1662.37,1169.53,-492.84
+keyword_baseline,TX-0186,easy,MMTA - Respiratory,3,24,24,Low,Low,1LA11,1LA11,1848.05,1848.05,0.0
+keyword_baseline,TX-0189,easy,MMTA - Surgical Aftercare,2,40,42,Medium,Medium,3GB11,3GB11,1385.38,1385.38,0.0
+keyword_baseline,TX-0190,medium,MS Rehab,1,27,34,Low,Medium,2EA11,2EB11,2333.35,2508.64,175.29
+keyword_baseline,TX-0192,easy,MMTA - GI/GU,1,52,48,High,Medium,3JC11,3JB11,1568.61,1351.75,-216.86
+keyword_baseline,TX-0195,easy,Wound,0,79,79,High,High,4CC11,4CC11,3441.33,3441.33,0.0
+keyword_baseline,TX-0196,medium,MS Rehab,0,31,31,Low,Low,3EA21,3EA21,1355.21,1355.21,0.0
+keyword_baseline,TX-0197,hard,MS Rehab,4,0,20,Low,Low,3EA21,3EA21,1355.21,1355.21,0.0
+keyword_baseline,TX-0198,easy,Neuro,2,72,65,High,High,3BC21,3BC21,2040.05,2040.05,0.0
+keyword_baseline,TX-0199,medium,MMTA - Other,0,59,59,High,High,3AC31,3AC31,1974.22,1974.22,0.0
+keyword_baseline,TX-0201,easy,MMTA - Infectious,0,52,52,High,High,3KC21,3KC21,1791.19,1791.19,0.0
+keyword_baseline,TX-0204,easy,MS Rehab,1,67,60,High,High,1EC31,1EC31,2769.94,2769.94,0.0
+keyword_baseline,TX-0205,medium,MMTA - Infectious,1,42,39,Medium,Medium,3KB31,3KB31,1776.92,1776.92,0.0
+keyword_baseline,TX-0207,easy,Wound,1,67,61,High,High,3CC21,3CC21,2602.6,2602.6,0.0
+keyword_baseline,TX-0208,medium,MS Rehab,2,67,61,High,High,2EC11,2EC11,2780.54,2780.54,0.0
+keyword_baseline,TX-0209,hard,Behavioral Health,2,48,39,High,Medium,2FC21,2FB21,2734.07,2572.64,-161.43
+keyword_baseline,TX-0210,easy,MMTA - Cardiac,1,79,75,High,High,3HC11,3HC11,1568.61,1568.61,0.0
+keyword_baseline,TX-0211,medium,Complex,2,28,35,Low,Medium,2DA11,2DB11,2240.21,2530.65,290.44
+keyword_baseline,TX-0212,hard,Complex,0,35,35,Medium,Medium,3DB21,3DB21,1552.31,1552.31,0.0
+keyword_baseline,TX-0213,easy,MMTA - GI/GU,2,54,51,High,High,4JC21,4JC21,2638.68,2638.68,0.0
+keyword_baseline,TX-0214,medium,MMTA - Other,2,71,62,High,High,4AC21,4AC21,2638.68,2638.68,0.0
+keyword_baseline,TX-0215,hard,MS Rehab,0,46,46,High,High,3EC31,3EC31,2092.23,2092.23,0.0
+keyword_baseline,TX-0216,easy,MMTA - Other,1,37,40,Medium,Medium,1AB21,1AB21,2160.31,2160.31,0.0
+keyword_baseline,TX-0217,medium,MS Rehab,1,35,32,Medium,Medium,3EB21,3EB21,1530.3,1530.3,0.0
+keyword_baseline,TX-0218,hard,MMTA - Infectious,5,19,31,Low,Low,3KA21,3KA21,1303.44,1303.44,0.0
+keyword_baseline,TX-0219,easy,MS Rehab,1,46,46,High,High,3EC21,3EC21,1802.4,1802.4,0.0
+keyword_baseline,TX-0222,easy,MMTA - Endocrine,0,53,53,High,High,2IC11,2IC11,3098.71,3098.71,0.0
+keyword_baseline,TX-0223,medium,MS Rehab,0,61,61,High,High,3EC11,3EC11,1686.63,1686.63,0.0
+keyword_baseline,TX-0224,hard,MS Rehab,2,48,37,High,Medium,2EC21,2EB21,2896.31,2624.21,-272.1
+keyword_baseline,TX-0225,easy,MS Rehab,1,54,51,High,High,3EC31,3EC31,2092.23,2092.23,0.0
+keyword_baseline,TX-0228,easy,MMTA - Other,2,40,33,Medium,Medium,3AB21,3AB21,1482.6,1482.6,0.0
+keyword_baseline,TX-0229,medium,Neuro,0,33,33,Low,Low,3BA11,3BA11,1423.9,1423.9,0.0
+keyword_baseline,TX-0231,easy,MMTA - Surgical Aftercare,2,27,28,Low,Low,4GA21,4GA21,2239.6,2239.6,0.0
+keyword_baseline,TX-0232,medium,Wound,1,45,35,Medium,Medium,2CB11,2CB11,3304.97,3304.97,0.0
+keyword_baseline,TX-0234,easy,MMTA - Cardiac,0,35,35,Medium,Medium,1HB21,1HB21,2143.6,2143.6,0.0
+keyword_baseline,TX-0235,medium,MMTA - Cardiac,3,19,32,Low,Medium,3HA21,3HB21,1266.75,1465.89,199.14
+keyword_baseline,TX-0236,hard,MMTA - Cardiac,0,28,28,Low,Low,3HA21,3HA21,1266.75,1266.75,0.0
+keyword_baseline,TX-0237,easy,MMTA - Surgical Aftercare,0,39,39,Medium,Medium,3GB31,3GB31,1790.78,1790.78,0.0
+keyword_baseline,TX-0240,easy,MMTA - Other,1,64,54,High,High,3AC11,3AC11,1568.61,1568.61,0.0
+keyword_baseline,TX-0242,hard,MMTA - Other,1,14,19,Low,Low,1AA11,1AA11,1864.56,1864.56,0.0
+keyword_baseline,TX-0243,easy,MMTA - Respiratory,0,45,45,Medium,Medium,3LB11,3LB11,1379.06,1379.06,0.0
+keyword_baseline,TX-0244,medium,MMTA - Other,2,22,26,Low,Low,2AA31,2AA31,2686.37,2686.37,0.0
+keyword_baseline,TX-0246,easy,MMTA - Infectious,2,45,47,Medium,High,2KB11,2KC11,2465.23,2769.53,304.3
+keyword_baseline,TX-0247,medium,MMTA - GI/GU,0,43,43,Medium,Medium,2JB31,2JB31,2851.27,2851.27,0.0
+keyword_baseline,TX-0249,easy,Complex,0,67,67,High,High,4DC11,4DC11,2323.77,2323.77,0.0
+keyword_baseline,TX-0252,easy,Neuro,2,45,38,Medium,Medium,4BB11,4BB11,2583.65,2583.65,0.0
+keyword_baseline,TX-0253,medium,Wound,1,54,37,High,Medium,2CC31,2CB31,3986.35,3710.58,-275.77
+keyword_baseline,TX-0255,easy,MMTA - Infectious,0,19,19,Low,Low,3KA11,3KA11,1187.87,1187.87,0.0
+keyword_baseline,TX-0256,medium,MMTA - Surgical Aftercare,0,59,59,High,High,3GC21,3GC21,1778.14,1778.14,0.0
+keyword_baseline,TX-0258,easy,MMTA - Other,1,41,60,Medium,High,1AB21,1AC21,2160.31,2362.09,201.78
+keyword_baseline,TX-0259,medium,MMTA - Respiratory,3,36,47,Medium,High,3LB11,3LC11,1379.06,1591.65,212.59
+keyword_baseline,TX-0261,easy,Wound,3,16,11,Low,Low,1CA11,1CA11,2725.71,2725.71,0.0
+keyword_baseline,TX-0262,medium,MMTA - Respiratory,1,39,35,Medium,Medium,3LB21,3LB21,1494.63,1494.63,0.0
+keyword_baseline,TX-0263,hard,Wound,3,20,27,Low,Low,4CA11,4CA11,3002.5,3002.5,0.0
+keyword_baseline,TX-0264,easy,MMTA - Surgical Aftercare,1,36,36,Medium,Medium,3GB21,3GB21,1500.95,1500.95,0.0
+keyword_baseline,TX-0265,medium,MMTA - Other,0,52,52,High,High,2AC11,2AC11,2662.73,2662.73,0.0
+keyword_baseline,TX-0267,easy,Neuro,1,73,56,High,High,3BC21,3BC21,2040.05,2040.05,0.0
+keyword_baseline,TX-0270,easy,MS Rehab,3,33,47,Medium,High,4EB21,4EC21,2484.59,2756.69,272.1
+keyword_baseline,TX-0271,medium,MMTA - Other,2,60,54,High,High,1AC11,1AC11,2246.32,2246.32,0.0
+keyword_baseline,TX-0272,hard,MMTA - Other,0,34,34,Medium,Medium,3AB21,3AB21,1482.6,1482.6,0.0
+keyword_baseline,TX-0273,easy,MS Rehab,3,27,31,Low,Low,3EA21,3EA21,1355.21,1355.21,0.0
+keyword_baseline,TX-0274,medium,MMTA - Endocrine,2,45,30,High,Medium,2IC11,2IB11,3098.71,2935.85,-162.86
+keyword_baseline,TX-0275,hard,MMTA - Respiratory,2,71,61,High,High,3LC31,3LC31,1997.25,1997.25,0.0
+keyword_baseline,TX-0276,easy,MMTA - Cardiac,1,59,53,High,High,2HC21,2HC21,2778.09,2778.09,0.0
+keyword_baseline,TX-0278,hard,MMTA - GI/GU,1,35,40,Medium,Medium,3JB21,3JB21,1467.52,1467.52,0.0
+keyword_baseline,TX-0279,easy,MS Rehab,0,42,42,Medium,Medium,3EB21,3EB21,1530.3,1530.3,0.0
+keyword_baseline,TX-0280,medium,Wound,1,79,73,High,High,4CC21,4CC21,3556.9,3556.9,0.0
+keyword_baseline,TX-0282,easy,MS Rehab,4,33,39,Medium,Medium,2EB31,2EB31,2914.04,2914.04,0.0
+keyword_baseline,TX-0285,easy,MMTA - Cardiac,0,60,60,High,High,3HC11,3HC11,1568.61,1568.61,0.0
+keyword_baseline,TX-0286,medium,MMTA - Cardiac,1,51,54,High,High,3HC21,3HC21,1684.18,1684.18,0.0
+keyword_baseline,TX-0288,easy,Behavioral Health,2,67,47,High,High,4FC11,4FC11,2478.88,2478.88,0.0
+keyword_baseline,TX-0289,medium,MMTA - Surgical Aftercare,2,79,76,High,High,3GC11,3GC11,1662.37,1662.37,0.0
+keyword_baseline,TX-0291,easy,MS Rehab,2,33,27,Medium,Low,3EB21,3EA21,1530.3,1355.21,-175.09
+keyword_baseline,TX-0292,medium,Behavioral Health,4,13,27,Low,Low,4FA31,4FA31,2453.2,2453.2,0.0
+keyword_baseline,TX-0293,hard,MMTA - Other,2,19,19,Low,Low,2AA21,2AA21,2396.54,2396.54,0.0
+keyword_baseline,TX-0294,easy,MMTA - Cardiac,3,16,13,Low,Low,2HA31,2HA31,2650.5,2650.5,0.0
+keyword_baseline,TX-0297,easy,MMTA - Cardiac,2,60,47,High,High,2HC21,2HC21,2778.09,2778.09,0.0
+keyword_baseline,TX-0298,medium,Wound,3,5,18,Low,Low,3CA21,3CA21,2163.77,2163.77,0.0
+keyword_baseline,TX-0299,hard,MMTA - Cardiac,4,16,13,Low,Low,3HA21,3HA21,1266.75,1266.75,0.0
+qwen2.5:7b,TX-0000,easy,MS Rehab,1,42,30,Medium,Low,1EB21,1EA21,2208.0,2032.72,-175.28
+qwen2.5:7b,TX-0002,hard,MMTA - Surgical Aftercare,2,27,33,Low,Medium,3GA21,3GB21,1285.1,1500.95,215.85
+qwen2.5:7b,TX-0003,easy,MS Rehab,3,60,57,High,High,3EC21,3EC21,1802.4,1802.4,0.0
+qwen2.5:7b,TX-0005,hard,MMTA - Respiratory,5,34,38,Medium,Medium,3LB31,3LB31,1784.46,1784.46,0.0
+qwen2.5:7b,TX-0006,easy,MMTA - Cardiac,5,79,68,High,High,3HC11,3HC11,1568.61,1568.61,0.0
+qwen2.5:7b,TX-0007,medium,MMTA - GI/GU,1,60,60,High,High,1JC21,1JC21,2361.89,2361.89,0.0
+qwen2.5:7b,TX-0009,easy,MMTA - Infectious,4,34,22,Medium,Low,3KB11,3KA11,1371.31,1187.87,-183.44
+qwen2.5:7b,TX-0012,easy,Neuro,4,60,49,High,Medium,3BC11,3BB11,1924.28,1629.15,-295.13
+qwen2.5:7b,TX-0013,medium,MMTA - Infectious,3,28,22,Low,Low,2KA21,2KA21,2397.56,2397.56,0.0
+qwen2.5:7b,TX-0014,hard,MMTA - Respiratory,3,60,45,High,Medium,2LC21,2LB21,2801.33,2588.54,-212.79
+qwen2.5:7b,TX-0015,easy,Neuro,3,22,38,Low,Medium,3BA11,3BB11,1423.9,1629.15,205.25
+qwen2.5:7b,TX-0016,medium,MMTA - Other,4,42,45,Medium,Medium,3AB21,3AB21,1482.6,1482.6,0.0
+qwen2.5:7b,TX-0017,hard,Complex,3,39,40,Medium,Medium,3DB21,3DB21,1552.31,1552.31,0.0
+qwen2.5:7b,TX-0018,easy,Wound,5,46,37,Medium,Medium,3CB21,3CB21,2326.83,2326.83,0.0
+qwen2.5:7b,TX-0019,medium,MMTA - Cardiac,1,71,59,High,High,3HC11,3HC11,1568.61,1568.61,0.0
+qwen2.5:7b,TX-0021,easy,MMTA - Cardiac,4,32,27,Medium,Low,3HB11,3HA11,1350.32,1150.98,-199.34
+qwen2.5:7b,TX-0024,easy,MMTA - GI/GU,4,22,25,Low,Low,3JA21,3JA21,1254.52,1254.52,0.0
+qwen2.5:7b,TX-0025,medium,MMTA - Cardiac,1,79,67,High,High,3HC21,3HC21,1684.18,1684.18,0.0
+qwen2.5:7b,TX-0026,hard,MMTA - Cardiac,6,20,30,Low,Medium,3HA11,3HB11,1150.98,1350.32,199.34
+qwen2.5:7b,TX-0027,easy,MS Rehab,2,53,50,High,High,1EC11,1EC11,2364.34,2364.34,0.0
+qwen2.5:7b,TX-0030,easy,MMTA - Respiratory,4,33,32,Low,Low,3LA21,3LA21,1286.12,1286.12,0.0
+qwen2.5:7b,TX-0032,hard,MS Rehab,5,28,14,Low,Low,3EA21,3EA21,1355.21,1355.21,0.0
+qwen2.5:7b,TX-0033,easy,MMTA - Infectious,4,40,37,Medium,Medium,4KB31,4KB31,2731.21,2731.21,0.0
+qwen2.5:7b,TX-0035,hard,MS Rehab,3,25,30,Low,Low,2EA31,2EA31,2738.96,2738.96,0.0
+qwen2.5:7b,TX-0036,easy,Wound,1,53,41,High,Medium,1CC11,1CB11,3164.54,2888.77,-275.77
+qwen2.5:7b,TX-0037,medium,MMTA - Infectious,4,71,56,High,High,1KC21,1KC21,2468.9,2468.9,0.0
+qwen2.5:7b,TX-0039,easy,MMTA - Other,5,6,0,Low,Low,1AA11,1AA11,1864.56,1864.56,0.0
+qwen2.5:7b,TX-0042,easy,MMTA - Endocrine,4,71,79,High,High,3IC21,3IC21,2120.56,2120.56,0.0
+qwen2.5:7b,TX-0043,medium,MMTA - Cardiac,3,40,37,Medium,Medium,3HB11,3HB11,1350.32,1350.32,0.0
+qwen2.5:7b,TX-0044,hard,MMTA - Cardiac,5,39,19,Medium,Low,1HB31,1HA31,2433.43,2234.3,-199.13
+qwen2.5:7b,TX-0045,easy,Neuro,4,46,42,Medium,Medium,1BB21,1BB21,2422.63,2422.63,0.0
+qwen2.5:7b,TX-0046,medium,MMTA - Surgical Aftercare,4,19,30,Low,Low,2GA21,2GA21,2379.21,2379.21,0.0
+qwen2.5:7b,TX-0047,hard,MMTA - Endocrine,4,36,30,Medium,Medium,1IB21,1IB21,2635.21,2635.21,0.0
+qwen2.5:7b,TX-0048,easy,MS Rehab,4,38,40,Medium,Medium,2EB21,2EB21,2624.21,2624.21,0.0
+qwen2.5:7b,TX-0049,medium,MMTA - Surgical Aftercare,4,20,14,Low,Low,3GA11,3GA11,1169.53,1169.53,0.0
+qwen2.5:7b,TX-0050,hard,MS Rehab,4,22,35,Low,Medium,3EA21,3EB21,1355.21,1530.3,175.09
+qwen2.5:7b,TX-0051,easy,Complex,3,45,40,Medium,Medium,1DB21,1DB21,2230.02,2230.02,0.0
+qwen2.5:7b,TX-0054,easy,MMTA - Cardiac,3,8,2,Low,Low,3HA11,3HA11,1150.98,1150.98,0.0
+qwen2.5:7b,TX-0057,easy,MMTA - Other,1,19,18,Low,Low,3AA11,3AA11,1186.86,1186.86,0.0
+qwen2.5:7b+guard,TX-0000,easy,MS Rehab,1,42,30,Medium,Low,1EB21,1EA21,2208.0,2032.72,-175.28
+qwen2.5:7b+guard,TX-0002,hard,MMTA - Surgical Aftercare,2,27,33,Low,Medium,3GA21,3GB21,1285.1,1500.95,215.85
+qwen2.5:7b+guard,TX-0003,easy,MS Rehab,3,60,57,High,High,3EC21,3EC21,1802.4,1802.4,0.0
+qwen2.5:7b+guard,TX-0005,hard,MMTA - Respiratory,5,34,38,Medium,Medium,3LB31,3LB31,1784.46,1784.46,0.0
+qwen2.5:7b+guard,TX-0006,easy,MMTA - Cardiac,5,79,68,High,High,3HC11,3HC11,1568.61,1568.61,0.0
+qwen2.5:7b+guard,TX-0007,medium,MMTA - GI/GU,1,60,60,High,High,1JC21,1JC21,2361.89,2361.89,0.0
+qwen2.5:7b+guard,TX-0009,easy,MMTA - Infectious,4,34,22,Medium,Low,3KB11,3KA11,1371.31,1187.87,-183.44
+qwen2.5:7b+guard,TX-0012,easy,Neuro,4,60,49,High,Medium,3BC11,3BB11,1924.28,1629.15,-295.13
+qwen2.5:7b+guard,TX-0013,medium,MMTA - Infectious,3,28,22,Low,Low,2KA21,2KA21,2397.56,2397.56,0.0
+qwen2.5:7b+guard,TX-0014,hard,MMTA - Respiratory,3,60,45,High,Medium,2LC21,2LB21,2801.33,2588.54,-212.79
+qwen2.5:7b+guard,TX-0015,easy,Neuro,3,22,38,Low,Medium,3BA11,3BB11,1423.9,1629.15,205.25
+qwen2.5:7b+guard,TX-0016,medium,MMTA - Other,4,42,45,Medium,Medium,3AB21,3AB21,1482.6,1482.6,0.0
+qwen2.5:7b+guard,TX-0017,hard,Complex,3,39,40,Medium,Medium,3DB21,3DB21,1552.31,1552.31,0.0
+qwen2.5:7b+guard,TX-0018,easy,Wound,5,46,37,Medium,Medium,3CB21,3CB21,2326.83,2326.83,0.0
+qwen2.5:7b+guard,TX-0019,medium,MMTA - Cardiac,1,71,59,High,High,3HC11,3HC11,1568.61,1568.61,0.0
+qwen2.5:7b+guard,TX-0021,easy,MMTA - Cardiac,4,32,27,Medium,Low,3HB11,3HA11,1350.32,1150.98,-199.34
+qwen2.5:7b+guard,TX-0024,easy,MMTA - GI/GU,4,22,25,Low,Low,3JA21,3JA21,1254.52,1254.52,0.0
+qwen2.5:7b+guard,TX-0025,medium,MMTA - Cardiac,1,79,67,High,High,3HC21,3HC21,1684.18,1684.18,0.0
+qwen2.5:7b+guard,TX-0026,hard,MMTA - Cardiac,6,20,30,Low,Medium,3HA11,3HB11,1150.98,1350.32,199.34
+qwen2.5:7b+guard,TX-0027,easy,MS Rehab,2,53,50,High,High,1EC11,1EC11,2364.34,2364.34,0.0
+qwen2.5:7b+guard,TX-0030,easy,MMTA - Respiratory,4,33,32,Low,Low,3LA21,3LA21,1286.12,1286.12,0.0
+qwen2.5:7b+guard,TX-0032,hard,MS Rehab,5,28,14,Low,Low,3EA21,3EA21,1355.21,1355.21,0.0
+qwen2.5:7b+guard,TX-0033,easy,MMTA - Infectious,4,40,37,Medium,Medium,4KB31,4KB31,2731.21,2731.21,0.0
+qwen2.5:7b+guard,TX-0035,hard,MS Rehab,3,25,30,Low,Low,2EA31,2EA31,2738.96,2738.96,0.0
+qwen2.5:7b+guard,TX-0036,easy,Wound,1,53,41,High,Medium,1CC11,1CB11,3164.54,2888.77,-275.77
+qwen2.5:7b+guard,TX-0037,medium,MMTA - Infectious,4,71,56,High,High,1KC21,1KC21,2468.9,2468.9,0.0
+qwen2.5:7b+guard,TX-0039,easy,MMTA - Other,5,6,0,Low,Low,1AA11,1AA11,1864.56,1864.56,0.0
+qwen2.5:7b+guard,TX-0042,easy,MMTA - Endocrine,4,71,79,High,High,3IC21,3IC21,2120.56,2120.56,0.0
+qwen2.5:7b+guard,TX-0043,medium,MMTA - Cardiac,3,40,37,Medium,Medium,3HB11,3HB11,1350.32,1350.32,0.0
+qwen2.5:7b+guard,TX-0044,hard,MMTA - Cardiac,5,39,19,Medium,Low,1HB31,1HA31,2433.43,2234.3,-199.13
+qwen2.5:7b+guard,TX-0045,easy,Neuro,4,46,42,Medium,Medium,1BB21,1BB21,2422.63,2422.63,0.0
+qwen2.5:7b+guard,TX-0046,medium,MMTA - Surgical Aftercare,4,19,30,Low,Low,2GA21,2GA21,2379.21,2379.21,0.0
+qwen2.5:7b+guard,TX-0047,hard,MMTA - Endocrine,4,36,30,Medium,Medium,1IB21,1IB21,2635.21,2635.21,0.0
+qwen2.5:7b+guard,TX-0048,easy,MS Rehab,4,38,40,Medium,Medium,2EB21,2EB21,2624.21,2624.21,0.0
+qwen2.5:7b+guard,TX-0049,medium,MMTA - Surgical Aftercare,4,20,14,Low,Low,3GA11,3GA11,1169.53,1169.53,0.0
+qwen2.5:7b+guard,TX-0050,hard,MS Rehab,4,22,35,Low,Medium,3EA21,3EB21,1355.21,1530.3,175.09
+qwen2.5:7b+guard,TX-0051,easy,Complex,1,45,45,Medium,Medium,1DB21,1DB21,2230.02,2230.02,0.0
+qwen2.5:7b+guard,TX-0054,easy,MMTA - Cardiac,3,8,2,Low,Low,3HA11,3HA11,1150.98,1150.98,0.0
+qwen2.5:7b+guard,TX-0057,easy,MMTA - Other,1,19,18,Low,Low,3AA11,3AA11,1186.86,1186.86,0.0
+qwen2.5:7b+segmented+rag,TX-0000,easy,MS Rehab,3,42,36,Medium,Medium,1EB21,1EB21,2208.0,2208.0,0.0
+qwen2.5:7b+segmented+rag,TX-0002,hard,MMTA - Surgical Aftercare,3,27,28,Low,Low,3GA21,3GA21,1285.1,1285.1,0.0
+qwen2.5:7b+segmented+rag,TX-0003,easy,MS Rehab,6,60,76,High,High,3EC21,3EC21,1802.4,1802.4,0.0
+qwen2.5:7b+segmented+rag,TX-0005,hard,MMTA - Respiratory,1,34,31,Medium,Low,3LB31,3LA31,1784.46,1575.95,-208.51
+qwen2.5:7b+segmented+rag,TX-0006,easy,MMTA - Cardiac,2,79,67,High,High,3HC11,3HC11,1568.61,1568.61,0.0
+qwen2.5:7b+segmented+rag,TX-0007,medium,MMTA - GI/GU,2,60,60,High,High,1JC21,1JC21,2361.89,2361.89,0.0
+qwen2.5:7b+segmented+rag,TX-0009,easy,MMTA - Infectious,2,34,19,Medium,Low,3KB11,3KA11,1371.31,1187.87,-183.44
+qwen2.5:7b+segmented+rag,TX-0012,easy,Neuro,2,60,60,High,High,3BC11,3BC11,1924.28,1924.28,0.0
+qwen2.5:7b+segmented+rag,TX-0013,medium,MMTA - Infectious,2,28,28,Low,Low,2KA21,2KA21,2397.56,2397.56,0.0
+qwen2.5:7b+segmented+rag,TX-0014,hard,MMTA - Respiratory,4,60,42,High,Medium,2LC21,2LB21,2801.33,2588.54,-212.79
+qwen2.5:7b+segmented+rag,TX-0015,easy,Neuro,3,22,42,Low,Medium,3BA11,3BB11,1423.9,1629.15,205.25
+qwen2.5:7b+segmented+rag,TX-0016,medium,MMTA - Other,4,42,28,Medium,Low,3AB21,3AA21,1482.6,1302.42,-180.18
+qwen2.5:7b+segmented+rag,TX-0017,hard,Complex,1,39,27,Medium,Low,3DB21,3DA21,1552.31,1262.07,-290.24
+qwen2.5:7b+segmented+rag,TX-0018,easy,Wound,2,46,43,Medium,Medium,3CB21,3CB21,2326.83,2326.83,0.0
+qwen2.5:7b+segmented+rag,TX-0019,medium,MMTA - Cardiac,6,71,76,High,High,3HC11,3HC11,1568.61,1568.61,0.0
+qwen2.5:7b+segmented+rag,TX-0021,easy,MMTA - Cardiac,2,32,32,Medium,Medium,3HB11,3HB11,1350.32,1350.32,0.0
+qwen2.5:7b+segmented+rag,TX-0024,easy,MMTA - GI/GU,3,22,19,Low,Low,3JA21,3JA21,1254.52,1254.52,0.0
+qwen2.5:7b+segmented+rag,TX-0025,medium,MMTA - Cardiac,4,79,72,High,High,3HC21,3HC21,1684.18,1684.18,0.0
+qwen2.5:7b+segmented+rag,TX-0026,hard,MMTA - Cardiac,3,20,11,Low,Low,3HA11,3HA11,1150.98,1150.98,0.0
+qwen2.5:7b+segmented+rag,TX-0027,easy,MS Rehab,5,53,42,High,Medium,1EC11,1EB11,2364.34,2092.23,-272.11
+qwen2.5:7b+segmented+rag,TX-0030,easy,MMTA - Respiratory,3,33,30,Low,Low,3LA21,3LA21,1286.12,1286.12,0.0
+qwen2.5:7b+segmented+rag,TX-0032,hard,MS Rehab,4,28,28,Low,Low,3EA21,3EA21,1355.21,1355.21,0.0
+qwen2.5:7b+segmented+rag,TX-0033,easy,MMTA - Infectious,4,40,37,Medium,Medium,4KB31,4KB31,2731.21,2731.21,0.0
+qwen2.5:7b+segmented+rag,TX-0035,hard,MS Rehab,6,25,13,Low,Low,2EA31,2EA31,2738.96,2738.96,0.0
+qwen2.5:7b+segmented+rag,TX-0036,easy,Wound,4,53,50,High,Medium,1CC11,1CB11,3164.54,2888.77,-275.77
+qwen2.5:7b+segmented+rag,TX-0037,medium,MMTA - Infectious,5,71,68,High,High,1KC21,1KC21,2468.9,2468.9,0.0
+qwen2.5:7b+segmented+rag,TX-0039,easy,MMTA - Other,1,6,6,Low,Low,1AA11,1AA11,1864.56,1864.56,0.0
+qwen2.5:7b+segmented+rag,TX-0042,easy,MMTA - Endocrine,2,71,56,High,High,3IC21,3IC21,2120.56,2120.56,0.0
+qwen2.5:7b+segmented+rag,TX-0043,medium,MMTA - Cardiac,4,40,56,Medium,High,3HB11,3HC11,1350.32,1568.61,218.29
+qwen2.5:7b+segmented+rag,TX-0044,hard,MMTA - Cardiac,2,39,36,Medium,Medium,1HB31,1HB31,2433.43,2433.43,0.0
+qwen2.5:7b+segmented+rag,TX-0045,easy,Neuro,2,46,34,Medium,Low,1BB21,1BA21,2422.63,2217.18,-205.45
+qwen2.5:7b+segmented+rag,TX-0046,medium,MMTA - Surgical Aftercare,3,19,21,Low,Low,2GA21,2GA21,2379.21,2379.21,0.0
+qwen2.5:7b+segmented+rag,TX-0047,hard,MMTA - Endocrine,2,36,32,Medium,Medium,1IB21,1IB21,2635.21,2635.21,0.0
+qwen2.5:7b+segmented+rag,TX-0048,easy,MS Rehab,4,38,44,Medium,Medium,2EB21,2EB21,2624.21,2624.21,0.0
+qwen2.5:7b+segmented+rag,TX-0049,medium,MMTA - Surgical Aftercare,4,20,20,Low,Low,3GA11,3GA11,1169.53,1169.53,0.0
+qwen2.5:7b+segmented+rag,TX-0050,hard,MS Rehab,4,22,20,Low,Low,3EA21,3EA21,1355.21,1355.21,0.0
+qwen2.5:7b+segmented+rag,TX-0051,easy,Complex,1,45,45,Medium,Medium,1DB21,1DB21,2230.02,2230.02,0.0
+qwen2.5:7b+segmented+rag,TX-0054,easy,MMTA - Cardiac,2,8,8,Low,Low,3HA11,3HA11,1150.98,1150.98,0.0
+qwen2.5:7b+segmented+rag,TX-0057,easy,MMTA - Other,2,19,23,Low,Low,3AA11,3AA11,1186.86,1186.86,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0000,easy,MS Rehab,3,42,36,Medium,Medium,1EB21,1EB21,2208.0,2208.0,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0002,hard,MMTA - Surgical Aftercare,3,27,28,Low,Low,3GA21,3GA21,1285.1,1285.1,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0003,easy,MS Rehab,6,60,76,High,High,3EC21,3EC21,1802.4,1802.4,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0005,hard,MMTA - Respiratory,1,34,31,Medium,Low,3LB31,3LA31,1784.46,1575.95,-208.51
+qwen2.5:7b+segmented+rag+guard,TX-0006,easy,MMTA - Cardiac,2,79,67,High,High,3HC11,3HC11,1568.61,1568.61,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0007,medium,MMTA - GI/GU,2,60,60,High,High,1JC21,1JC21,2361.89,2361.89,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0009,easy,MMTA - Infectious,2,34,19,Medium,Low,3KB11,3KA11,1371.31,1187.87,-183.44
+qwen2.5:7b+segmented+rag+guard,TX-0012,easy,Neuro,2,60,60,High,High,3BC11,3BC11,1924.28,1924.28,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0013,medium,MMTA - Infectious,2,28,28,Low,Low,2KA21,2KA21,2397.56,2397.56,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0014,hard,MMTA - Respiratory,3,60,48,High,High,2LC21,2LC21,2801.33,2801.33,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0015,easy,Neuro,3,22,42,Low,Medium,3BA11,3BB11,1423.9,1629.15,205.25
+qwen2.5:7b+segmented+rag+guard,TX-0016,medium,MMTA - Other,4,42,28,Medium,Low,3AB21,3AA21,1482.6,1302.42,-180.18
+qwen2.5:7b+segmented+rag+guard,TX-0017,hard,Complex,1,39,27,Medium,Low,3DB21,3DA21,1552.31,1262.07,-290.24
+qwen2.5:7b+segmented+rag+guard,TX-0018,easy,Wound,2,46,43,Medium,Medium,3CB21,3CB21,2326.83,2326.83,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0019,medium,MMTA - Cardiac,6,71,76,High,High,3HC11,3HC11,1568.61,1568.61,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0021,easy,MMTA - Cardiac,2,32,32,Medium,Medium,3HB11,3HB11,1350.32,1350.32,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0024,easy,MMTA - GI/GU,3,22,19,Low,Low,3JA21,3JA21,1254.52,1254.52,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0025,medium,MMTA - Cardiac,4,79,72,High,High,3HC21,3HC21,1684.18,1684.18,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0026,hard,MMTA - Cardiac,3,20,11,Low,Low,3HA11,3HA11,1150.98,1150.98,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0027,easy,MS Rehab,5,53,42,High,Medium,1EC11,1EB11,2364.34,2092.23,-272.11
+qwen2.5:7b+segmented+rag+guard,TX-0030,easy,MMTA - Respiratory,3,33,30,Low,Low,3LA21,3LA21,1286.12,1286.12,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0032,hard,MS Rehab,4,28,28,Low,Low,3EA21,3EA21,1355.21,1355.21,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0033,easy,MMTA - Infectious,4,40,37,Medium,Medium,4KB31,4KB31,2731.21,2731.21,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0035,hard,MS Rehab,6,25,13,Low,Low,2EA31,2EA31,2738.96,2738.96,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0036,easy,Wound,4,53,50,High,Medium,1CC11,1CB11,3164.54,2888.77,-275.77
+qwen2.5:7b+segmented+rag+guard,TX-0037,medium,MMTA - Infectious,5,71,68,High,High,1KC21,1KC21,2468.9,2468.9,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0039,easy,MMTA - Other,1,6,6,Low,Low,1AA11,1AA11,1864.56,1864.56,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0042,easy,MMTA - Endocrine,2,71,56,High,High,3IC21,3IC21,2120.56,2120.56,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0043,medium,MMTA - Cardiac,4,40,56,Medium,High,3HB11,3HC11,1350.32,1568.61,218.29
+qwen2.5:7b+segmented+rag+guard,TX-0044,hard,MMTA - Cardiac,2,39,36,Medium,Medium,1HB31,1HB31,2433.43,2433.43,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0045,easy,Neuro,2,46,34,Medium,Low,1BB21,1BA21,2422.63,2217.18,-205.45
+qwen2.5:7b+segmented+rag+guard,TX-0046,medium,MMTA - Surgical Aftercare,3,19,21,Low,Low,2GA21,2GA21,2379.21,2379.21,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0047,hard,MMTA - Endocrine,2,36,32,Medium,Medium,1IB21,1IB21,2635.21,2635.21,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0048,easy,MS Rehab,4,38,44,Medium,Medium,2EB21,2EB21,2624.21,2624.21,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0049,medium,MMTA - Surgical Aftercare,4,20,20,Low,Low,3GA11,3GA11,1169.53,1169.53,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0050,hard,MS Rehab,4,22,20,Low,Low,3EA21,3EA21,1355.21,1355.21,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0051,easy,Complex,1,45,45,Medium,Medium,1DB21,1DB21,2230.02,2230.02,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0054,easy,MMTA - Cardiac,2,8,8,Low,Low,3HA11,3HA11,1150.98,1150.98,0.0
+qwen2.5:7b+segmented+rag+guard,TX-0057,easy,MMTA - Other,2,19,23,Low,Low,3AA11,3AA11,1186.86,1186.86,0.0

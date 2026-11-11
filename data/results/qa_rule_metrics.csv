@@ -1,0 +1,51 @@
+system,rule_id,evaluable,fired,precision,description
+keyword_baseline,R01,21.0,0.0,,Bedfast status must agree: M1850 4/5 <-> M1860 6
+keyword_baseline,R02,22.0,0.0,,Chairfast/bedfast patient coded as using the shower/tub (M1830 0-3)
+keyword_baseline,R03,43.0,0.0,,Independent transfer (M1850 0) but bedpan/total dependence for toileting
+keyword_baseline,R04,29.0,0.0,,Bedfast (M1860 6) but gets to the toilet (M1840 0/1)
+keyword_baseline,R05,41.0,5.0,1.0,Sit-to-stand performance contradicts M1850 transferring
+keyword_baseline,R06,40.0,6.0,1.0,Chair/bed transfer performance contradicts M1850 transferring
+keyword_baseline,R07,29.0,1.0,1.0,Walk-10-feet performance contradicts M1860 ambulation
+keyword_baseline,R08,46.0,1.0,1.0,Oral hygiene performance contradicts M1800 grooming
+keyword_baseline,R09,37.0,5.0,1.0,Toileting hygiene performance contradicts M1840 toilet transferring
+keyword_baseline,R10,57.0,0.0,,M1033 'None of the above' marked together with a risk
+qwen2.5:7b,R01,55.0,2.0,1.0,Bedfast status must agree: M1850 4/5 <-> M1860 6
+qwen2.5:7b,R02,55.0,0.0,,Chairfast/bedfast patient coded as using the shower/tub (M1830 0-3)
+qwen2.5:7b,R03,55.0,0.0,,Independent transfer (M1850 0) but bedpan/total dependence for toileting
+qwen2.5:7b,R04,55.0,0.0,,Bedfast (M1860 6) but gets to the toilet (M1840 0/1)
+qwen2.5:7b,R05,50.0,15.0,1.0,Sit-to-stand performance contradicts M1850 transferring
+qwen2.5:7b,R06,50.0,15.0,1.0,Chair/bed transfer performance contradicts M1850 transferring
+qwen2.5:7b,R07,50.0,20.0,1.0,Walk-10-feet performance contradicts M1860 ambulation
+qwen2.5:7b,R08,41.0,7.0,1.0,Oral hygiene performance contradicts M1800 grooming
+qwen2.5:7b,R09,54.0,17.0,1.0,Toileting hygiene performance contradicts M1840 toilet transferring
+qwen2.5:7b,R10,60.0,0.0,,M1033 'None of the above' marked together with a risk
+qwen2.5:7b+guard,R01,54.0,2.0,1.0,Bedfast status must agree: M1850 4/5 <-> M1860 6
+qwen2.5:7b+guard,R02,54.0,0.0,,Chairfast/bedfast patient coded as using the shower/tub (M1830 0-3)
+qwen2.5:7b+guard,R03,53.0,0.0,,Independent transfer (M1850 0) but bedpan/total dependence for toileting
+qwen2.5:7b+guard,R04,53.0,0.0,,Bedfast (M1860 6) but gets to the toilet (M1840 0/1)
+qwen2.5:7b+guard,R05,49.0,14.0,1.0,Sit-to-stand performance contradicts M1850 transferring
+qwen2.5:7b+guard,R06,49.0,14.0,1.0,Chair/bed transfer performance contradicts M1850 transferring
+qwen2.5:7b+guard,R07,49.0,19.0,1.0,Walk-10-feet performance contradicts M1860 ambulation
+qwen2.5:7b+guard,R08,40.0,7.0,1.0,Oral hygiene performance contradicts M1800 grooming
+qwen2.5:7b+guard,R09,52.0,16.0,1.0,Toileting hygiene performance contradicts M1840 toilet transferring
+qwen2.5:7b+guard,R10,59.0,0.0,,M1033 'None of the above' marked together with a risk
+qwen2.5:7b+segmented+rag,R01,58.0,7.0,1.0,Bedfast status must agree: M1850 4/5 <-> M1860 6
+qwen2.5:7b+segmented+rag,R02,57.0,1.0,1.0,Chairfast/bedfast patient coded as using the shower/tub (M1830 0-3)
+qwen2.5:7b+segmented+rag,R03,60.0,0.0,,Independent transfer (M1850 0) but bedpan/total dependence for toileting
+qwen2.5:7b+segmented+rag,R04,58.0,0.0,,Bedfast (M1860 6) but gets to the toilet (M1840 0/1)
+qwen2.5:7b+segmented+rag,R05,60.0,8.0,1.0,Sit-to-stand performance contradicts M1850 transferring
+qwen2.5:7b+segmented+rag,R06,60.0,5.0,1.0,Chair/bed transfer performance contradicts M1850 transferring
+qwen2.5:7b+segmented+rag,R07,58.0,9.0,1.0,Walk-10-feet performance contradicts M1860 ambulation
+qwen2.5:7b+segmented+rag,R08,58.0,8.0,1.0,Oral hygiene performance contradicts M1800 grooming
+qwen2.5:7b+segmented+rag,R09,53.0,1.0,1.0,Toileting hygiene performance contradicts M1840 toilet transferring
+qwen2.5:7b+segmented+rag,R10,60.0,23.0,1.0,M1033 'None of the above' marked together with a risk
+qwen2.5:7b+segmented+rag+guard,R01,57.0,7.0,1.0,Bedfast status must agree: M1850 4/5 <-> M1860 6
+qwen2.5:7b+segmented+rag+guard,R02,54.0,1.0,1.0,Chairfast/bedfast patient coded as using the shower/tub (M1830 0-3)
+qwen2.5:7b+segmented+rag+guard,R03,58.0,0.0,,Independent transfer (M1850 0) but bedpan/total dependence for toileting
+qwen2.5:7b+segmented+rag+guard,R04,57.0,0.0,,Bedfast (M1860 6) but gets to the toilet (M1840 0/1)
+qwen2.5:7b+segmented+rag+guard,R05,58.0,8.0,1.0,Sit-to-stand performance contradicts M1850 transferring
+qwen2.5:7b+segmented+rag+guard,R06,59.0,5.0,1.0,Chair/bed transfer performance contradicts M1850 transferring
+qwen2.5:7b+segmented+rag+guard,R07,56.0,9.0,1.0,Walk-10-feet performance contradicts M1860 ambulation
+qwen2.5:7b+segmented+rag+guard,R08,57.0,7.0,1.0,Oral hygiene performance contradicts M1800 grooming
+qwen2.5:7b+segmented+rag+guard,R09,45.0,1.0,1.0,Toileting hygiene performance contradicts M1840 toilet transferring
+qwen2.5:7b+segmented+rag+guard,R10,60.0,23.0,1.0,M1033 'None of the above' marked together with a risk
