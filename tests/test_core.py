@@ -122,3 +122,12 @@ def test_keyword_baseline_runs_on_easy_transcript():
     t = make_transcript(p, "easy", rng, "T0")
     pred = KeywordExtractor().extract(t.text)
     assert set(pred) == set(ITEM_CODES)
+
+
+def test_guard_accepts_multi_sentence_quotes_but_rejects_any_invented_sentence():
+    transcript = ("PATIENT: I fell twice since the summer.\nNURSE: Okay.\n"
+                  "PATIENT: I've been in the hospital twice in the last few months.")
+    stitched = "I fell twice since the summer. I've been in the hospital twice in the last few months."
+    assert evidence_support(stitched, transcript) == 1.0
+    partly_invented = "I fell twice since the summer. I take eleven different pills every day."
+    assert evidence_support(partly_invented, transcript) < 0.7

@@ -25,17 +25,33 @@ def _norm(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
-def evidence_support(evidence: str | None, transcript: str) -> float:
-    """Share of the evidence quote found as one contiguous run in the transcript (0-1)."""
-    if not evidence:
-        return 0.0
-    e, t = _norm(evidence), _norm(transcript)
+def _support_one(e: str, t: str) -> float:
     if not e:
         return 0.0
     if e in t:
         return 1.0
     m = SequenceMatcher(None, e, t, autojunk=False).find_longest_match(0, len(e), 0, len(t))
     return m.size / len(e)
+
+
+def evidence_support(evidence: str | None, transcript: str) -> float:
+    """How well the evidence is grounded in the transcript (0-1).
+
+    A quote may stitch together several sentences from different turns (common for
+    checklist items like M1033), so each sentence is checked on its own and the
+    weakest sentence decides: one invented sentence is enough to fail the quote.
+    """
+    if not evidence:
+        return 0.0
+    t = _norm(transcript)
+    whole = _support_one(_norm(evidence), t)
+    if whole == 1.0:
+        return 1.0
+    parts = [_norm(p) for p in re.split(r"(?<=[.!?])\s+|\n|\s*\.\.\.\s*|\s+[A-Z]+( \([a-z ]+\))?:\s+", evidence) if p]
+    parts = [p for p in parts if len(p.split()) >= 3]
+    if not parts:
+        return whole
+    return max(whole, min(_support_one(p, t) for p in parts))
 
 
 def sanitize(pred: dict) -> Prediction:
