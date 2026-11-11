@@ -1,0 +1,19 @@
+# API on :8000, dashboard on :8501, local LLM on :11434.
+# After `docker compose up`, pull the model once:  docker compose exec ollama ollama pull qwen2.5:7b
+services:
+  api:
+    build: .
+    ports: ["8000:8000"]
+    environment:
+      OLLAMA_URL: http://ollama:11434
+    depends_on: [ollama]
+  dashboard:
+    build: .
+    command: ["streamlit", "run", "dashboard/app.py", "--server.address=0.0.0.0", "--server.port=8501"]
+    ports: ["8501:8501"]
+  ollama:
+    image: ollama/ollama:0.40.13
+    ports: ["11434:11434"]
+    volumes: ["ollama:/root/.ollama"]
+volumes:
+  ollama:
