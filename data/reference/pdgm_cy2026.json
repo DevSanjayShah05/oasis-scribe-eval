@@ -1,0 +1,120 @@
+{
+  "source": "CY 2026 HH PPS Final Rule, 90 FR 55342 (FR Doc 2025-21767), Dec 2, 2025",
+  "national_standardized_30_day_rate": 2038.22,
+  "functional_points": {
+    "M1800": {
+      "0": 0,
+      "1": 0,
+      "2": 3,
+      "3": 3
+    },
+    "M1810": {
+      "0": 0,
+      "1": 0,
+      "2": 5,
+      "3": 5
+    },
+    "M1820": {
+      "0": 0,
+      "1": 0,
+      "2": 4,
+      "3": 12
+    },
+    "M1830": {
+      "0": 0,
+      "1": 0,
+      "2": 2,
+      "3": 10,
+      "4": 10,
+      "5": 17,
+      "6": 17
+    },
+    "M1840": {
+      "0": 0,
+      "1": 0,
+      "2": 6,
+      "3": 6,
+      "4": 6
+    },
+    "M1850": {
+      "0": 0,
+      "1": 1,
+      "2": 4,
+      "3": 4,
+      "4": 4,
+      "5": 4
+    },
+    "M1860": {
+      "0": 0,
+      "1": 0,
+      "2": 5,
+      "3": 1,
+      "4": 20,
+      "5": 20,
+      "6": 20
+    }
+  },
+  "m1033_rule": {
+    "count_responses": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "min_marked": 4,
+    "points": 12
+  },
+  "functional_thresholds": {
+    "MMTA - Other": {
+      "low_max": 30,
+      "medium_max": 45
+    },
+    "Behavioral Health": {
+      "low_max": 31,
+      "medium_max": 46
+    },
+    "Complex": {
+      "low_max": 31,
+      "medium_max": 54
+    },
+    "MS Rehab": {
+      "low_max": 31,
+      "medium_max": 45
+    },
+    "Neuro": {
+      "low_max": 34,
+      "medium_max": 52
+    },
+    "Wound": {
+      "low_max": 33,
+      "medium_max": 52
+    },
+    "MMTA - Surgical Aftercare": {
+      "low_max": 30,
+      "medium_max": 42
+    },
+    "MMTA - Cardiac": {
+      "low_max": 28,
+      "medium_max": 43
+    },
+    "MMTA - Endocrine": {
+      "low_max": 27,
+      "medium_max": 41
+    },
+    "MMTA - GI/GU": {
+      "low_max": 34,
+      "medium_max": 48
+    },
+    "MMTA - Infectious": {
+      "low_max": 32,
+      "medium_max": 46
+    },
+    "MMTA - Respiratory": {
+      "low_max": 33,
+      "medium_max": 46
+    }
+  }
+}
