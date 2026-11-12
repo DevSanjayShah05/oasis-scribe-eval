@@ -27,6 +27,9 @@ def load_transcripts(subset: str | None = None) -> list[dict]:
     rows = [json.loads(line) for line in open(SYN / "transcripts.jsonl")]
     if subset == "llm":
         rows = [r for r in rows if r["llm_eval_subset"]]
+    elif subset in ("dev", "test"):
+        ids = set(json.loads((SYN / "splits.json").read_text())[subset])
+        rows = [r for r in rows if r["transcript_id"] in ids]
     return rows
 
 
@@ -51,14 +54,15 @@ def cmd_extract(system: str, model: str, rag: bool, subset: str | None, limit: i
     from .extract.rules import KeywordExtractor
     from .extract.segmented import SegmentedExtractor
 
-    RES.mkdir(parents=True, exist_ok=True)
+    res = RES / "test" if subset == "test" else RES  # held-out predictions never mix with dev results
+    res.mkdir(parents=True, exist_ok=True)
     if system == "keyword":
         ext = KeywordExtractor()
     elif system == "segmented":
         ext = SegmentedExtractor(model=model, use_rag=rag)
     else:
         ext = OllamaExtractor(model=model, use_rag=rag)
-    out_path = RES / f"predictions_{ext.name.replace(':', '-').replace('+', '_')}.jsonl"
+    out_path = res / f"predictions_{ext.name.replace(':', '-').replace('+', '_')}.jsonl"
     done = set()
     if out_path.exists():  # resumable: long local-LLM runs can be interrupted
         done = {json.loads(line)["transcript_id"] for line in open(out_path)}
@@ -93,7 +97,7 @@ def main() -> None:
     e.add_argument("--system", choices=["keyword", "llm", "segmented"], required=True)
     e.add_argument("--model", default="qwen2.5:7b")
     e.add_argument("--rag", action="store_true")
-    e.add_argument("--subset", choices=["llm"], default=None)
+    e.add_argument("--subset", choices=["llm", "dev", "test"], default=None)
     e.add_argument("--limit", type=int, default=None)
     sub.add_parser("evaluate")
     a = ap.parse_args()
