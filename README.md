@@ -2,6 +2,8 @@
 
 **An evaluation harness for AI scribes that write OASIS: how often they get it right, where they go wrong, and what each error costs under PDGM.**
 
+**Live dashboard:** [second-read.streamlit.app](https://second-read.streamlit.app/)
+
 > Home health agencies are adopting ambient AI scribes that listen to a nurse's start-of-care visit and fill in the
 > OASIS assessment. OASIS answers drive both payment (PDGM) and public quality scores (Care Compare, HHVBP), so a wrong
 > answer is a billing and compliance problem, not just a typo. This repo is the "second read": a reproducible way to
